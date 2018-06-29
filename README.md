@@ -16,6 +16,7 @@ cksum file                 查看文件大小<br>
 cp file /usr/men/tmp/file1 将文件file复制到目录/usr/men/tmp下，并改名为file1<br>
 cp -r /usr/men /usr/zh     将目录/usr/men下的所有文件及其子目录复制到目录/usr/zh中<br>
 
+
 vi命令
 ------
 :wq  保存文件并退出vi<br>
