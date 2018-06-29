@@ -24,7 +24,7 @@ cp -r /usr/men /usr/zh<br>             将目录/usr/men下的所有文件及其
 (2)grep是根据文件的内容进行查找，会对文件的每一行按照给定的模式(patter)进行匹配查找。<br>
 
 
-find / -name redis.conf<br> 　　        在根目录下查找文件redis.conf，表示在整个硬盘查找<br>
+find / -name redis.conf <br> 　　        在根目录下查找文件redis.conf，表示在整个硬盘查找<br>
 find / -name '*redis.conf*'<br>        使用通配符*,表示在/目录下查找文件名中含有字符<br>
 参考资料：https://www.cnblogs.com/zhangmo/p/3571735.html
 
