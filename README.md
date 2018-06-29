@@ -1,8 +1,8 @@
 # linux的常用命令
 
 kill -9 8142 强制关闭进程<br>
-ps -ef  | grep zookeeper          查看进程<br> 
-ps -aux | grep 'zookeeper'        看看进程<br>
+ps -ef  | grep zookeeper<br>          查看进程<br> 
+ps -aux | grep 'zookeeper'<br>        看看进程<br>
 
 cksum file                        查看文件大小<br>
 ls -all                           查看隐藏文件<br>
