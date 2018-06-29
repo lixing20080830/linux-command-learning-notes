@@ -23,8 +23,11 @@ cp -r /usr/men /usr/zh<br>             将目录/usr/men下的所有文件及其
 (1)find命令是根据文件的属性进行查找，如文件名，文件大小，所有者，所属组，是否为空，访问时间，修改时间等。<br>
 (2)grep是根据文件的内容进行查找，会对文件的每一行按照给定的模式(patter)进行匹配查找。<br>
 
+
 find / -name redis.conf<br> 　　        在根目录下查找文件redis.conf，表示在整个硬盘查找<br>
-find / -name '*redis.conf*'<br>        使用通配符*,表示在/目录下查找文件名中含有字符<br>
+find / -name '*redis.conf*' <br>       使用通配符*,表示在/目录下查找文件名中含有字符<br>
+参考资料：https://www.cnblogs.com/zhangmo/p/3571735.html
+
 grep -rn "0.0.0.0" *<br>               在当前目录下，查找"0.0.0.0"字符串<br>
 grep -rn man *<br>                     会匹配 ‘Batman’、‘manic’、‘man’等<br>
 grep -rn '\<man' *<br>                 匹配‘manic’和‘man’，但不是‘Batman’<br>
