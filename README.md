@@ -29,7 +29,7 @@ vi命令
 :wq<br>            保存文件并退出vi<br>
 :wq!<br>           强制保存文件，并退出vi<br>
 :q!<br>            不保存文件，强制退出vi<br>
-:set number<br>    设置行号
-:set nonumber<br>  关闭行号显示
+:set number<br>    设置行号<br>
+:set nonumber<br>  关闭行号显示<br>
 
 
