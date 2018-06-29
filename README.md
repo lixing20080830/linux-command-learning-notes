@@ -1,9 +1,6 @@
 # linux的常用命令
 
-kill -9 8142<br>                      强制关闭进程<br>
-ps -ef  | grep zookeeper<br>          查看进程<br> 
-ps -aux | grep 'zookeeper'<br>        看看进程<br>
-
+more -dc /etc/profile<br>              打开文件<br>
 cksum file<br>                         查看文件大小<br>
 ls -all<br>                            查看隐藏文件<br>
 ls -a<br>                              显示隐藏文件<br>
@@ -17,6 +14,25 @@ mv a.txt /b/c.txt<br>                  将a.txt移动到/b下，并重命名为c
 
 cp file /usr/men/tmp/file1<br>         将文件file复制到目录/usr/men/tmp下，并改名为file1<br>
 cp -r /usr/men /usr/zh<br>             将目录/usr/men下的所有文件及其子目录复制到目录/usr/zh中<br>
+
+查看进程
+------
+
+ps aux 是用BSD的格式来显示 java这个进程，显示的项目有：USER , PID , %CPU , %MEM , VSZ , RSS , TTY , STAT , START , TIME , COMMAND<br>
+ps -ef 是用标准的格式显示java这个进程，显示的项目有：UID , PID , PPID , C , STIME , TTY , TIME , CMD<br>
+参考资料：https://blog.csdn.net/a12345555555/article/details/72770789<br>
+
+pkill - 9 java                        停止所有java进程命令<br>
+kill -9 java进程序号<br>               根据java进程序号强制关闭进程<br>
+ps -ef  | grep zookeeper<br>          查看进程<br> 
+ps -aux | grep 'zookeeper'<br>        看看进程<br>
+ps -aux | grep pid<br>                根据进程pid查看<br>
+
+netstat -anp
+netstat -tunlp
+netstat -anp |grep port  查看端口
+
+
 
 搜索命令search
 ------
