@@ -22,12 +22,13 @@ ps aux 是用BSD的格式来显示 java这个进程，显示的项目有：USER 
 ps -ef 是用标准的格式显示java这个进程，显示的项目有：UID , PID , PPID , C , STIME , TTY , TIME , CMD<br>
 参考资料：https://blog.csdn.net/a12345555555/article/details/72770789<br>
 
+* pid进程编号和进程名字查询
 pkill - 9 java<br>                    停止所有java进程命令<br>
 kill -9 java进程序号<br>               根据java进程序号强制关闭进程<br>
 ps -ef  | grep redis<br>              查看进程<br> 
 ps -aux | grep redis<br>              看看进程<br>
 ps -aux | grep pid<br>                根据进程pid查看<br>
-* 哈哈哈
+* 端口和进程名字查询
 netstat -antp<br>                     查看所有端口和服务<br> 
 netstat -antp |grep port<br>          查看端口<br> 
 netstat -antp |grep redis<br>         查看服务<br> 
