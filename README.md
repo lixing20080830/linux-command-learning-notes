@@ -27,7 +27,7 @@ kill -9 java进程序号<br>               根据java进程序号强制关闭进
 ps -ef  | grep redis<br>              查看进程<br> 
 ps -aux | grep redis<br>              看看进程<br>
 ps -aux | grep pid<br>                根据进程pid查看<br>
-###哈哈哈
+* 哈哈哈
 netstat -antp<br>                     查看所有端口和服务<br> 
 netstat -antp |grep port<br>          查看端口<br> 
 netstat -antp |grep redis<br>         查看服务<br> 
