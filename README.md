@@ -26,6 +26,7 @@ ps -ef 是用标准的格式显示java这个进程，显示的项目有：UID , 
 pkill - 9 java<br>                    停止所有java进程命令<br>
 kill -9 java进程序号<br>               根据java进程序号强制关闭进程<br>
 ps -ef  | grep redis<br>              查看进程<br> 
+ps -ef | grep sh<br>                  查看脚本进程<br>         
 ps -aux | grep redis<br>              看看进程<br>
 ps -aux | grep pid<br>                根据进程pid查看<br>
 ### 根据端口和进程名字查询
